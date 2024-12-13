@@ -1,0 +1,108 @@
+{
+  "data": [
+    {
+      "id": "015c",
+      "logocomp": {
+        "url": "https://res.cloudinary.com/dfvonhupq/image/upload/v1733837514/logoW_l1pdsf.png",
+        "urlcolor": "https://res.cloudinary.com/dfvonhupq/image/upload/v1733837514/logo_lneayw.png"
+      },
+      "menuheaderNav": {
+        "id": "016c",
+        "links": [
+          {
+            "name": "Home",
+            "id": "457854771"
+          },
+          {
+            "name": "About Aricxes",
+            "id": "457854772"
+          },
+          {
+            "name": "Services",
+            "id": "457854773"
+          },
+          {
+            "name": "TECHNOLOGIES",
+            "id": "457854774"
+          },
+          {
+            "name": "Contact Us",
+            "id": "457854775"
+          }
+        ]
+      },
+      "Bannercontent":{
+        "id": "587454",
+        "heading": "Creating a Seamless Customer Experience Across Offline and Online Brand Touchpoints",
+        "subcontent": "We deliver cutting-edge, scalable, and results-driven next-generation technology tailored to elevate your business."
+      },
+      "welcomesection":{
+        "heading": "Develop Your Brand, Expand Its Reach",
+        "headingopt": [
+          {
+            "name": "Online Store Solutions",
+            "id": "457785"
+          },
+          {
+            "name": "Branding Approach",
+            "id": "457786"
+          },
+          {
+            "name": "Imaginative Works",
+            "id": "457787"
+          },
+          {
+            "name": "End-to-End Web and App Solutions",
+            "id": "4577887"
+          }
+        ]
+      },
+      "agencycontent": {
+        "content": "With over a decade of experience, we specialize in delivering top-tier products. Don’t just take our word for it—our results speak for themselves.",
+        "img": "https://res.cloudinary.com/dfvonhupq/image/upload/v1734019685/Mask_group_gzxs0a.png"
+      },
+      "services":{
+        "heading": "Full Range of Web Design Services",
+        "subheading": "We are 100+ professional software engineers with more than 10 years of experience in delivering superior products Believe it because you’ve seen it. Here are real numbers.",
+        "oursevices":[
+          {
+            "name": "digital Marketing",
+            "id": "ser4457v",
+            "content": "The Easiest Way to Improvet Your Site Speed",
+            "iconname": "faBullhorn"
+          },
+          {
+            "name": "Ecommerce Development",
+            "id": "ser445457v",
+            "content": "The Easiest Way to Improvet Your Site Speed",
+            "iconname": "faCartArrowDown"
+          },
+          {
+            "name": "Web Application Development",
+            "id": "ser44785v",
+            "content": "The Easiest Way to Improvet Your Site Speed",
+            "iconname": "faLaptopCode"
+          },
+          {
+            "name": "Mobile App Development",
+            "id": "ser46594v",
+            "content": "The Easiest Way to Improvet Your Site Speed",
+            "iconname": "faMobileScreen"
+          },
+          {
+            "name": "UI/UX Designing",
+            "id": "ser365895v",
+            "content": "The Easiest Way to Improvet Your Site Speed",
+            "iconname": "faRulerCombined"
+          },
+          {
+            "name": "Graphic Designing",
+            "id": "ser569844v",
+            "content": "The Easiest Way to Improvet Your Site Speed",
+            "iconname": "faObjectGroup"
+          }
+        ]
+      }
+    }
+  ]
+}
