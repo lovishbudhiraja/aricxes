@@ -11,23 +11,28 @@
         "links": [
           {
             "name": "Home",
-            "id": "457854771"
+            "id": "457854771",
+            "urlName": "home"
           },
           {
             "name": "About Aricxes",
-            "id": "457854772"
+            "id": "457854772",
+            "urlName": "about-us"
           },
           {
             "name": "Services",
-            "id": "457854773"
+            "id": "457854773",
+            "urlName": "services"
           },
           {
-            "name": "TECHNOLOGIES",
-            "id": "457854774"
+            "name": "Technologies",
+            "id": "457854774",
+            "urlName": "technologies"
           },
           {
             "name": "Contact Us",
-            "id": "457854775"
+            "id": "457854775",
+            "urlName": "contact-us"
           }
         ]
       },
@@ -62,46 +67,153 @@
         "img": "https://res.cloudinary.com/dfvonhupq/image/upload/v1734019685/Mask_group_gzxs0a.png"
       },
       "services":{
-        "heading": "Full Range of Web Design Services",
+        "heading": "Our Premium Services we provided",
         "subheading": "We are 100+ professional software engineers with more than 10 years of experience in delivering superior products Believe it because you’ve seen it. Here are real numbers.",
         "oursevices":[
           {
-            "name": "digital Marketing",
+            "name": "Digital Marketing",
             "id": "ser4457v",
             "content": "The Easiest Way to Improvet Your Site Speed",
-            "iconname": "faBullhorn"
+            "burl": "digitamarketServicesBG_kqbfqs.png"
           },
           {
             "name": "Ecommerce Development",
             "id": "ser445457v",
             "content": "The Easiest Way to Improvet Your Site Speed",
-            "iconname": "faCartArrowDown"
+            "burl": "ecommerceServicesBG_kpslez.png"
           },
           {
             "name": "Web Application Development",
             "id": "ser44785v",
             "content": "The Easiest Way to Improvet Your Site Speed",
-            "iconname": "faLaptopCode"
+            "burl": "webdevServicesBG_ygiubd.png"
           },
           {
             "name": "Mobile App Development",
             "id": "ser46594v",
             "content": "The Easiest Way to Improvet Your Site Speed",
-            "iconname": "faMobileScreen"
+            "burl": "mobiledevServicesBG_ckmzu3.png"
           },
           {
             "name": "UI/UX Designing",
             "id": "ser365895v",
             "content": "The Easiest Way to Improvet Your Site Speed",
-            "iconname": "faRulerCombined"
+            "burl": "uiuxServicesBG_bpjztc.png"
           },
           {
             "name": "Graphic Designing",
             "id": "ser569844v",
             "content": "The Easiest Way to Improvet Your Site Speed",
-            "iconname": "faObjectGroup"
+            "burl": "graphicdesignServicesBG_wc3hr6.png"
           }
         ]
+      },
+      "marketweserve":{
+        "heading": "Markets We Cater To",
+        "subheading": "Indutries",
+        "industries":[
+          {
+            "sname": "Retail & Ecommerce",
+            "name": "Enterprise eCommerce & Retail",
+            "id": "5487881",
+            "desc": "Omnichannel retail and eCommerce services will redefine how customers interact with your brand, creating seamless and engaging experiences across all touchpoints."
+          },
+          {
+            "sname": "Sports & Entertainment",
+            "name": "Sports & Entertainment",
+            "id": "54878821",
+            "desc": "Harness real-time data to deliver personalized interactions, transforming the way customers engage with sports and entertainment."
+          },
+          {
+            "sname": "Media & Publishing Industry",
+            "name": "Digitizing The Media & Publishing Industry",
+            "id": "78455",
+            "desc": "Leverage specific strategies designed to revolutionize the media and publishing industry, driving innovation and growth."
+          },
+          {
+            "sname": "Food & Beverages",
+            "name": "Food & Beverages Software Development",
+            "id": "2343424",
+            "desc": "Our expert developers craft tailored, flexible, and configurable software solutions designed to enhance delivery efficiency, boost sales, and maximize profitability in the food and beverage sector."
+          },
+          {
+            "sname": "Healthcare and Fitness",
+            "name": "Healthcare and Fitness Software Development Company",
+            "id": "456677",
+            "desc": "We develop custom healthcare applications that save time for patients and doctors by simplifying appointment scheduling and streamlining the check-in process."
+          },
+          {
+            "sname": "E-Learning Solution",
+            "name": "Custom E-Learning Solutions",
+            "id": "87789780",
+            "desc": "Our experts in e-learning software development craft unparalleled solutions that enhance user experiences, supporting the evolution of educational systems to meet the goals of higher education institutions."
+          },
+          {
+            "sname": "Logistics",
+            "name": "Simplifying Digital Supply Chains Through Strategy & Innovations",
+            "id": "12332343",
+            "desc": "At Aricxes, we are dedicated to revolutionizing the logistics and transportation industry by driving operational efficiency and automation in your business using cutting-edge technologies and tools."
+          }
+        ]
+      },
+      "workingprocess":{
+        "list":[
+          {
+            "name": "startergy",
+            "id": "01",
+            "desc": "By analyzing what drives success in your online industry, we craft a website tailored to your unique goals and audience.",
+            "img": "v1734335932/support_ging7n.jpg",
+            "clr": "#FF497C"
+          },
+          {
+            "name": "Design",
+            "id": "02",
+            "desc": "We transform your vision into reality by creating a unique masterpiece that brings your brand to life, tailored exclusively for you.",
+             "img": "v1734335932/designing_q4ua3x.jpg",
+            "clr": "#A0CE4E"
+          },
+          {
+            "name": "Develop",
+            "id": "03",
+            "desc": "Your website comes to life on our dedicated development server, allowing you to watch the entire process unfold in real time.",
+             "img": "v1734335932/develop_qrqgnl.jpg",
+            "clr": "#00BEA3"
+          },
+          {
+            "name": "Support",
+            "id": "04",
+            "desc": "This is your moment to go live. From design and marketing to ongoing maintenance, we’ll be by your side every step of the way, ensuring your site thrives.",
+             "img": "v1734335932/stratergy_hnypmg.jpg",
+            "clr": "#F1894C"
+          }
+        ]
+      },
+      "chooseus":{
+        "heading": "Why Choose ARICXES?",
+        "subheading": "Reasons to Choose",
+        "reasons":[
+          {
+            "name": "Short Go Live Time",
+            "desc": "Plug and play ecommerce platform & ecosystem"
+          },
+          {
+            "name": "Empowered Data Driven Decision Making",
+            "desc": "AI driven technology architecture"
+          },
+          {
+            "name": "Increased Sales Across Channels",
+            "desc": "By providing a seamless brand experience"
+          },
+          {
+            "name": "Enhanced operational efficiency",
+            "desc": "Through catalog, merchandising, end to end marketing, fulfilment operations & customer support"
+          }
+        ]
+      },
+      "footer": {
+        "phonenumber": "+91-9650592248",
+        "email": "support@aricxes.com",
+        "content": "We deliver powerful, robust, scalable, and result-driven next-generation technology solutions tailored to elevate your business to new heights."
       }
     }
   ]

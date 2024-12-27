@@ -15,7 +15,7 @@ module.exports = {
       fontFamily: {
         kanit: ["Kanit", "sans - serif"],
         inter: ["Inter", "sans - serif"],
-        fira: ["Fira Sans"],
+        juliet: ["julietta_messiemessie-demo"],
       },
       fontSize: {
         "font-14x": "14px",
@@ -29,5 +29,5 @@ module.exports = {
     },
   },
   plugins: [],
-  important: true,
+  important: false,
 };

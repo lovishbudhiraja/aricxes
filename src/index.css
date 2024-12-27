@@ -13,14 +13,24 @@
     color: theme("colors.black");
     font-size: theme("fontSize.font-14x");
   }
+
+  @font-face {
+    font-family: "julietta_messiemessie-demo";
+    src: url("https://res.cloudinary.com/dfvonhupq/raw/upload/v1734090713/julietta-messie.messie-demo-webfont_ba3y6j.woff2")
+        format("woff2"),
+      url("https://res.cloudinary.com/dfvonhupq/raw/upload/v1734090713/julietta-messie.messie-demo-webfont_ugnfzc.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
 }
 
 @layer components {
   .wrapper {
-    @apply max-w-7xl w-full m-auto flex items-center justify-between;
+    @apply max-w-7xl w-full m-auto flex items-center justify-between overflow-hidden px-7 lg:px-0;
   }
   section {
-    @apply py-20 h-screen flex items-center;
+    @apply py-12 lg:py-28 flex items-center;
   }
   .slick-list {
     overflow: visible !important;

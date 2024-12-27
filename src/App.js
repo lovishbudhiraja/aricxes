@@ -5,7 +5,12 @@ import ApiContext from "./utils/DataContext";
 import Loader from "./component/Loader";
 import HeroBanner from "./component/heroBanner/HeroBanner";
 import WelcomeToAgency from "./component/homeContent/WelcomeToAgency";
-import Services from "./component/homeContent/Services";
+import Services from "./component/homeContent/market/Market";
+import OurServices from "./component/homeContent/services/OurServices";
+import WorkingProcess from "./component/homeContent/stratergy/WorkingProcess";
+import ChooseUs from "./component/homeContent/whychoose/ChooseUs";
+import Footer from "./component/footer/Footer";
+// import ModalBox from "./component/modalbox/ModalBox";
 
 function App() {
   const [apiCall, setApiCall] = useState([]);
@@ -39,8 +44,13 @@ function App() {
       <ApiContext.Provider value={{ apiCall, apiError, apiLoading }}>
         <Navbar />
         <HeroBanner />
-        <Services />
         <WelcomeToAgency />
+        <OurServices />
+        <Services />
+        <WorkingProcess />
+        <ChooseUs />
+        <Footer />
+        {/* <ModalBox /> */}
       </ApiContext.Provider>
     </>
   );

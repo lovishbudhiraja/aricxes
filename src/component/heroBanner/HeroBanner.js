@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import ApiContext from "../../utils/DataContext";
 import Buttons from "../../utils/Buttons";
+import { GlobalUrls } from "../../utils/urls";
 
 function HeroBanner() {
   const { apiCall } = useContext(ApiContext);
@@ -9,16 +10,16 @@ function HeroBanner() {
   }
 
   return (
-    <div className="h-screen pt-20 bg-[url('https://res.cloudinary.com/dfvonhupq/image/upload/v1733925050/h2-bg-slider_mw5qab.jpg')] bg-cover">
-      <div className="wrapper relative h-full justify-between">
+    <div className="h-auto lg:h-screen pt-28 pb-20 lg:pb-0 bg-[url('https://res.cloudinary.com/dfvonhupq/image/upload/v1733925050/h2-bg-slider_mw5qab.jpg')] bg-cover">
+      <div className="wrapper relative h-full justify-between flex-col lg:flex-row">
         <img
-          src="https://res.cloudinary.com/dfvonhupq/image/upload/v1733976458/home4-slide1-additional_djqwyv.png"
+          src={`${GlobalUrls}v1734339872/home4-slide1-additional_ludzcj.png`}
           alt=""
-          className="w-[46%] saturate-0"
+          className="w-[46%] saturate-0 hidden lg:flex"
         />
-        <div className="flex shrink-0 flex-col w-2/4 gap-6">
+        <div className="flex shrink-0 flex-col w-[100%] gap-6 lg:w-2/4">
           <h1
-            className="text-5xl text-white font-fira leading-snug font-bold"
+            className="text-3xl lg:text-5xl text-white font-fira leading-snug font-bold"
             id="head"
           >
             {apiCall[0].Bannercontent.heading
