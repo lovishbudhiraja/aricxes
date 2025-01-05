@@ -12,27 +12,63 @@
           {
             "name": "Home",
             "id": "457854771",
-            "urlName": "home"
+            "urlName": "home",
+            "sublinks": []
           },
           {
             "name": "About Aricxes",
             "id": "457854772",
-            "urlName": "about-us"
+            "urlName": "about-us",
+            "sublinks": []
           },
           {
             "name": "Services",
             "id": "457854773",
-            "urlName": "services"
+            "urlName": "services",
+            "sublinks": [
+              {
+                "name": "Digital Marketing",
+                "id": "ser01",
+                "urlname": "digital-marketing"
+              },
+              {
+                "name": "Ecommerce Development",
+                "id": "ser02",
+                "urlname": "ecommerce-development"
+              },
+              {
+                "name": "Web Application Development",
+                "id": "ser03",
+                "urlname": "webapp-development"
+              },
+              {
+                "name": "Mobile App Development",
+                "id": "ser04",
+                "urlname": "mobileapp-development"
+              },
+              {
+                "name": "UI/UX Designing",
+                "id": "ser05",
+                "urlname": "uiux-designing"
+              },
+              {
+                "name": "Graphic Designing",
+                "id": "ser06",
+                "urlname": "graphic-designing"
+              }
+            ]
           },
           {
             "name": "Technologies",
             "id": "457854774",
-            "urlName": "technologies"
+            "urlName": "technologies",
+            "sublinks": []
           },
           {
             "name": "Contact Us",
             "id": "457854775",
-            "urlName": "contact-us"
+            "urlName": "contact-us",
+            "sublinks": []
           }
         ]
       },
@@ -214,7 +250,22 @@
         "phonenumber": "+91-9650592248",
         "email": "support@aricxes.com",
         "content": "We deliver powerful, robust, scalable, and result-driven next-generation technology solutions tailored to elevate your business to new heights."
+      },
+      "servicescontent": {
+
       }
     }
-  ]
+  ],
+  "data2":{
+    "card": [
+      {
+        "id": 1,
+        "servicename": "Digital"
+      },
+      {
+        "id": 2,
+        "servicename": "Marketing"
+      }
+    ]
+  }
 }

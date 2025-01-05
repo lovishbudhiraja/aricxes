@@ -12,7 +12,7 @@ const Services = () => {
         <sub className="font-juliet text-xl text-orange-700 flex items-center gap-1">
           <WiStars /> Feature Services
         </sub>
-        <h2 className="font-fira text-3xl lg:text-5xl leading-snug text-white font-bold text-center">
+        <h2 className="font-fira text-3xl lg:text-5xl lg:leading-snug text-white font-bold text-center">
           {apiCall[0].services.heading}
         </h2>
         <ul className="mt-10 flex justify-between w-full flex-wrap gap-0">

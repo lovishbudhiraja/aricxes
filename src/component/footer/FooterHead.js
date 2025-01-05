@@ -51,7 +51,7 @@ function FooterHead() {
         <input
           className="h-14 text-white bg-[#2c2c2c] rounded-full px-8 w-full"
           type="email"
-          value="Join Us"
+          defaultValue="Join Us"
         />
         <Buttons
           classprop={

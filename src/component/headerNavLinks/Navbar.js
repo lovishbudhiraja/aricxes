@@ -6,7 +6,7 @@ import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 import MenuLinksMobile from "./MenuLinksMobile";
 
-function Navbar() {
+function NavBar() {
   const [headScroll, setHeadScroll] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -44,7 +44,7 @@ function Navbar() {
           : "flex items-center border-b-[1px] border-b-[#ffffff1a] fixed top-0 left-0 w-full z-10 hover:bg-[#ffffff1a] transition-all"
       }
     >
-      <div className="wrapper">
+      <div className="wrapper overflow-visible">
         <a href="/" className="p-6">
           <img className="w-32" src={apiCall[0].logocomp.url} alt="" />
         </a>
@@ -96,4 +96,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;

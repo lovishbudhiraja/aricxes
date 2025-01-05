@@ -19,7 +19,7 @@ function HeroBanner() {
         />
         <div className="flex shrink-0 flex-col w-[100%] gap-6 lg:w-2/4">
           <h1
-            className="text-3xl lg:text-5xl text-white font-fira leading-snug font-bold"
+            className="text-3xl lg:text-5xl text-white font-fira lg:leading-snug font-bold"
             id="head"
           >
             {apiCall[0].Bannercontent.heading

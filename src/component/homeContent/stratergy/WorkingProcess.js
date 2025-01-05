@@ -17,7 +17,7 @@ function WorkingProcess() {
                 }`}
                 key={items.id}
               >
-                {console.log(items.clr)}
+                {/* {console.log(items.clr)} */}
                 <div
                   className={`flex items-center flex-1 ${
                     index % 2 ? "flex-row-reverse" : " "

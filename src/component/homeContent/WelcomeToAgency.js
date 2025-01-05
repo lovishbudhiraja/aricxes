@@ -7,7 +7,7 @@ import { FaArrowCircleRight } from "react-icons/fa";
 function WelcomeToAgency() {
   const { apiCall } = useContext(ApiContext);
   return (
-    <section className="bg-[url('https://res.cloudinary.com/dfvonhupq/image/upload/v1734030899/h2-bg-overlay1-1_1_zkab3c.png')] bg-cover">
+    <section>
       <div className="wrapper flex-col-reverse md:flex-row gap-12 md:gap-0">
         <div className="w-full md:w-[45%] flex items-center justify-center relative">
           <img src={apiCall[0].agencycontent.img} alt="" />
@@ -26,7 +26,7 @@ function WelcomeToAgency() {
           <sub className="font-juliet text-xl text-orange-700 flex items-center gap-1">
             <WiStars /> We Build Your Brand
           </sub>
-          <h2 className="font-fira text-3xl md:text-5xl leading-snug font-bold mb-10">
+          <h2 className="font-fira text-3xl md:text-5xl md:leading-snug font-bold mb-10">
             {apiCall[0].welcomesection.heading}
           </h2>
           <ul className="flex flex-col gap-3 md:gap-8 pl-3">

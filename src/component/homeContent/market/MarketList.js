@@ -66,7 +66,7 @@ function ServicesList() {
               <i className="absolute top-[-130px] right-[-130px] w-28 h-28 bg-gradient-to-r from-[#ED213A] to-[#93291E] flex items-center justify-center rounded-full ease-in duration-300 group-hover:top-[-20px] group-hover:right-[-20px]">
                 <FaArrowRight
                   className="text-3xl text-white font-light"
-                  bounce
+                  bounce="true"
                 />
               </i>
             </a>

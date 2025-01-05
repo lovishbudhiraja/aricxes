@@ -13,7 +13,7 @@ function Services() {
           <sub className="font-juliet text-xl text-orange-700 flex items-center gap-1">
             <WiStars /> {apiCall[0].marketweserve.subheading}
           </sub>
-          <h2 className="font-fira relative text-3xl lg:text-5xl leading-snug font-bold mb-10">
+          <h2 className="font-fira relative lg:leading-snug text-3xl lg:text-5xl font-bold mb-10">
             {apiCall[0].marketweserve.heading}
           </h2>
           {/* <Buttons

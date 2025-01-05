@@ -11,13 +11,13 @@ function ChooseUs() {
         <sub className="font-juliet text-xl text-orange-700 flex items-center gap-1">
           <WiStars /> Reasons to Choose Us
         </sub>
-        <h2 className="font-fira text-3xl lg:text-5xl leading-snug text-black font-bold text-center mb-10">
+        <h2 className="font-fira text-3xl lg:text-5xl lg:leading-snug text-black font-bold text-center mb-10">
           Why choose ARICXES?
         </h2>
         <ul className="flex flex-wrap lg:flex-nowrap gap-4 mb-10 justify-center">
-          {apiCall[0].chooseus.reasons.map((items) => {
+          {apiCall[0].chooseus.reasons.map((items, index) => {
             return (
-              <li className="flex" key={items.id}>
+              <li className="flex" key={index}>
                 <a
                   href="#_"
                   className="group relative p-[44px] bg-white rounded-3xl max-w-[312px] ease-in duration-300 hover:-bg--title-color overflow-hidden shadow-2xl shadow-orange-300/30"

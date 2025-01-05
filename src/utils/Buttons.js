@@ -1,13 +1,15 @@
 import React from "react";
 
-function Buttons({ classprop, textname }) {
+function Buttons({ classprop, textname, iconName, clickedinfo }) {
   return (
-    <a href="#_" className={classprop}>
+    <button className={classprop} onClick={clickedinfo}>
       <span
-        className={`absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-56 group-hover:h-56`}
+        className={`absolute w-0 h-0 transition-all duration-500 ease-out bg-white rounded-full group-hover:w-72 group-hover:h-72`}
       ></span>
-      <span className="relative">{textname}</span>
-    </a>
+      <span className="relative flex items-center gap-2">
+        {textname} {iconName}
+      </span>
+    </button>
   );
 }
 
