@@ -1,5 +1,3 @@
-import Footer from "../footer/Footer";
-import NavBar from "../headerNavLinks/NavBar";
 import HeroBanner from "../heroBanner/HeroBanner";
 import WelcomeToAgency from "../homeContent/WelcomeToAgency";
 import Services from "../homeContent/market/Market";

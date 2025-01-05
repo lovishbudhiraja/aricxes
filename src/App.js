@@ -45,7 +45,7 @@ function App() {
       element: <AppComp />,
       children: [
         {
-          path: "/",
+          path: "/home",
           element: <BodyHome />,
           errorElement: <Error />,
         },

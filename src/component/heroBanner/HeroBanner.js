@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import ApiContext from "../../utils/DataContext";
 import Buttons from "../../utils/Buttons";
 import { GlobalUrls } from "../../utils/urls";
+import { NavLink } from "react-router-dom";
 
 function HeroBanner() {
   const { apiCall } = useContext(ApiContext);
@@ -38,12 +39,15 @@ function HeroBanner() {
           <p className="text-xl text-white leading-snug font-light">
             {apiCall[0].Bannercontent.subcontent}
           </p>
-          <Buttons
-            classprop={
-              "relative mr-auto text-white inline-flex items-center justify-center py-2 px-5 overflow-hidden txtColor hover:-text--base-color -bg--base-color rounded-full group min-w-[160px]"
-            }
-            textname={"Let's talk"}
-          />
+
+          <NavLink to={`/${apiCall[0].menuheaderNav.links[4].urlName}`}>
+            <Buttons
+              classprop={
+                "relative mr-auto text-white inline-flex items-center justify-center py-2 px-5 overflow-hidden txtColor hover:-text--base-color -bg--base-color rounded-full group min-w-[160px]"
+              }
+              textname={"Let's talk"}
+            />
+          </NavLink>
         </div>
       </div>
     </div>

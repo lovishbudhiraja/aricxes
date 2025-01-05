@@ -5,6 +5,7 @@ import Buttons from "../../utils/Buttons";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 import MenuLinksMobile from "./MenuLinksMobile";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
   const [headScroll, setHeadScroll] = useState(false);
@@ -45,20 +46,22 @@ function NavBar() {
       }
     >
       <div className="wrapper overflow-visible">
-        <a href="/" className="p-6">
+        <NavLink to={`/${apiCall[0].menuheaderNav.links[0].urlName}`}>
           <img className="w-32" src={apiCall[0].logocomp.url} alt="" />
-        </a>
+        </NavLink>
         <nav className="hidden lg:block">
           <ul className="flex gap-7">
             <MenuLinks />
           </ul>
         </nav>
-        <Buttons
-          classprop={
-            "relative inline-flex text-white items-center justify-center py-2 px-5 overflow-hidden txtColor hover:-text--base-color -bg--base-color rounded-full group hidden lg:inline-flex"
-          }
-          textname={"Request a quote"}
-        />
+        <NavLink to={`/${apiCall[0].menuheaderNav.links[4].urlName}`}>
+          <Buttons
+            classprop={
+              "relative inline-flex text-white items-center justify-center py-2 px-5 overflow-hidden txtColor hover:-text--base-color -bg--base-color rounded-full group hidden lg:inline-flex"
+            }
+            textname={"Request a quote"}
+          />
+        </NavLink>
         <button
           className={`inline-flex lg:hidden items-center justify-center rounded-md p-2.5 text-gray-700 ${
             isOpen ? "z-10" : ""
