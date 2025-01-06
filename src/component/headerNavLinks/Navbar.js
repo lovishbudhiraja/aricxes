@@ -54,14 +54,12 @@ function NavBar() {
             <MenuLinks />
           </ul>
         </nav>
-        <NavLink to={`/${apiCall[0].menuheaderNav.links[4].urlName}`}>
-          <Buttons
+        <Buttons
             classprop={
               "relative inline-flex text-white items-center justify-center py-2 px-5 overflow-hidden txtColor hover:-text--base-color -bg--base-color rounded-full group hidden lg:inline-flex"
             }
             textname={"Request a quote"}
           />
-        </NavLink>
         <button
           className={`inline-flex lg:hidden items-center justify-center rounded-md p-2.5 text-gray-700 ${
             isOpen ? "z-10" : ""

@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 function MenuLinks() {
   const { apiCall } = useContext(ApiContext);
   let menuLinks = apiCall[0]?.menuheaderNav?.links;
+  console.log(apiCall[0])
   return (
     <>
       {menuLinks.map((menuItems) => {
@@ -30,7 +31,7 @@ function MenuLinks() {
                     return (
                       <li className="list-none" key={subItems.id}>
                         <NavLink
-                          to={`/${subItems.urlname}`}
+                          to={`/services/${subItems.urlname}`}
                           className="block text-base hover:-text--base-color capitalize py-1"
                         >
                           {subItems.name}

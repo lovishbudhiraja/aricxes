@@ -42,9 +42,9 @@
                 "urlname": "webapp-development"
               },
               {
-                "name": "Mobile App Development",
+                "name": "Mobile Development",
                 "id": "ser04",
-                "urlname": "mobileapp-development"
+                "urlname": "mobile-development"
               },
               {
                 "name": "UI/UX Designing",
@@ -260,11 +260,21 @@
     "card": [
       {
         "id": 1,
-        "servicename": "Digital"
+        "servicename": "Web Application Development",
+        "content": [
+          {
+            "headingname": "Enjoy Our Web Development Services to Disrupt Your Market"
+          }
+        ]
       },
       {
         "id": 2,
-        "servicename": "Marketing"
+        "servicename": "Mobile Development",
+        "content": [
+          {
+            "headingname": "Enjoy Our Web Development Services to Disrupt Your Market"
+          }
+        ]
       }
     ]
   }
